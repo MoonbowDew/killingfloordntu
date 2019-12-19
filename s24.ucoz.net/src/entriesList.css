@@ -1,0 +1,23 @@
+#uEntriesList {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border-collapse: collapse;
+}
+#uEntriesList:before, #uEntriesList:after {content: "";display: table;}
+#uEntriesList:after {clear: left;}
+#uEntriesList {zoom: 1;}
+#uEntriesList .uEntryWrap {
+	width: 33.33%;
+	text-align: center;
+	vertical-align: top;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+#uEntriesList .entryBlock {
+	text-align: left;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
